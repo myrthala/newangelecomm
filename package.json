@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "firebase": "^9.9.4"
+  },
+  "name": "angel-ecommerce",
+  "version": "1.0.1",
+  "description": "angel ortiz e commerce with react js",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Myrthala Wong",
+  "license": "ISC"
+}
