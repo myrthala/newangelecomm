@@ -1,4 +1,4 @@
-
+/* Barra de navegación */
 .navBar{
     display: flex;
     position: sticky;
@@ -17,6 +17,5 @@
 }
 
 .navBar .navbar-navbar .navbar-navlink{
-  
     justify-content: space-evenly;
 }
