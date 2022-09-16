@@ -1,0 +1,22 @@
+
+.navBar{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.navBar .logoHorAO{
+    height: 10rem;
+}
+
+.navbar-title{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.navBar .navbar-navbar .navbar-navlink{
+  
+    justify-content: space-evenly;
+}
