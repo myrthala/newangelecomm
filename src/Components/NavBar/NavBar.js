@@ -13,8 +13,10 @@ export const NavBar = () => {
             <div>
                 <h1 className="navbar-title">The Art Of Angel Ortiz</h1>
             </div>
-
+            <div>
             <CartWidget/>
+            </div>
+
             <div>
                 <nav className="navbar-navbar">
                     <ul className="navbar-navlink">Home</ul>
