@@ -16,6 +16,12 @@
     padding: 2rem 0;
 }
 
+.cartWidget {
+    display: flex;
+    align-content: center;
+    padding: 3rem;
+}
+
 .navBar .navbar-navbar .navbar-navlink{
     justify-content: space-evenly;
 }
