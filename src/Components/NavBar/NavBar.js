@@ -13,7 +13,7 @@ export const NavBar = () => {
             <div>
                 <h1 className="navbar-title">The Art Of Angel Ortiz</h1>
             </div>
-            <div>
+            <div className='cartWidget'>
             <CartWidget/>
             </div>
 
