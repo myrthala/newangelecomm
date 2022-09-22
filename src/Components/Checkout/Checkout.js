@@ -3,7 +3,8 @@ import { useState } from "react"
 
 const Checkout = () => {
 
-    
+   // const { cart, cartTotal, terminarCompra, terminarCompraConSwal} = useCartContext()
+
 
     const[values, setValues] = useState({
         nombre: '',
@@ -40,9 +41,23 @@ const Checkout = () => {
             alert("Teléfono incorrecto")
             return
         }
+
+        if (values.email.length < 10){
+            alert("Correo electrónico incorrecto")
+            return
+        }
+        if (values.direccion.length <5){
+            alert("Dirección incorrecta")
+            return
+        }
     }
 
     
+//    const q = query(productosRef, where(documentID(), 'in'))    
+   // const productos = await getDocs(q)
+    const outOfStock = []
+
+
 
     return(
     <div>
